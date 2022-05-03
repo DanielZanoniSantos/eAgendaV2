@@ -5,7 +5,6 @@ C:\Users\danie\source\repos\GestaoTarefas\GestaoTarefas.WinApp\bin\Debug\net5.0-
 C:\Users\danie\source\repos\GestaoTarefas\GestaoTarefas.WinApp\bin\Debug\net5.0-windows\GestaoTarefas.WinApp.dll
 C:\Users\danie\source\repos\GestaoTarefas\GestaoTarefas.WinApp\bin\Debug\net5.0-windows\GestaoTarefas.WinApp.pdb
 C:\Users\danie\source\repos\GestaoTarefas\GestaoTarefas.WinApp\obj\Debug\net5.0-windows\GestaoTarefas.WinApp.csproj.AssemblyReference.cache
-C:\Users\danie\source\repos\GestaoTarefas\GestaoTarefas.WinApp\obj\Debug\net5.0-windows\GestaoTarefas.WinApp.Form1.resources
 C:\Users\danie\source\repos\GestaoTarefas\GestaoTarefas.WinApp\obj\Debug\net5.0-windows\GestaoTarefas.WinApp.ListagemTarefas.resources
 C:\Users\danie\source\repos\GestaoTarefas\GestaoTarefas.WinApp\obj\Debug\net5.0-windows\GestaoTarefas.WinApp.csproj.GenerateResource.cache
 C:\Users\danie\source\repos\GestaoTarefas\GestaoTarefas.WinApp\obj\Debug\net5.0-windows\GestaoTarefas.WinApp.GeneratedMSBuildEditorConfig.editorconfig
@@ -26,3 +25,4 @@ C:\Users\danie\source\repos\GestaoTarefas\GestaoTarefas.WinApp\bin\Debug\net5.0-
 C:\Users\danie\source\repos\GestaoTarefas\GestaoTarefas.WinApp\bin\Debug\net5.0-windows\GestaoTarefas.Dominio.pdb
 C:\Users\danie\source\repos\GestaoTarefas\GestaoTarefas.WinApp\bin\Debug\net5.0-windows\GestaoTarefas.Infra.Arquivo.dll
 C:\Users\danie\source\repos\GestaoTarefas\GestaoTarefas.WinApp\bin\Debug\net5.0-windows\GestaoTarefas.Infra.Arquivo.pdb
+C:\Users\danie\source\repos\GestaoTarefas\GestaoTarefas.WinApp\obj\Debug\net5.0-windows\GestaoTarefas.WinApp.CadastroContato.resources

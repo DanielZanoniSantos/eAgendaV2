@@ -4,13 +4,13 @@
     <Compile Update="AtualizacaoItensTarefa.cs">
       <SubType>Form</SubType>
     </Compile>
+    <Compile Update="CadastroContato.cs">
+      <SubType>Form</SubType>
+    </Compile>
     <Compile Update="CadastroItensTarefa.cs">
       <SubType>Form</SubType>
     </Compile>
     <Compile Update="CadastroTarefa.cs">
-      <SubType>Form</SubType>
-    </Compile>
-    <Compile Update="Form1.cs">
       <SubType>Form</SubType>
     </Compile>
     <Compile Update="ListagemTarefas.cs">

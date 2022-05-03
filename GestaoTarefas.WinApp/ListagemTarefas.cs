@@ -16,6 +16,7 @@ namespace GestaoTarefas.WinApp
     public partial class ListagemTarefas : Form
     {
         private IRepositorioTarefa repositorioTarefa;
+        private IRepositorioContato repositorioContato;
 
         public object ItensAdicionados { get; private set; }
 
@@ -31,6 +32,8 @@ namespace GestaoTarefas.WinApp
 
             InitializeComponent();
             repositorioTarefa = new RepositorioTarefaEmArquivo(serializador);
+
+            //repositoriocontato = new repositoriotarefaemarquivo(serializador);
             CarregarTarefas();
         }
 
@@ -165,6 +168,32 @@ namespace GestaoTarefas.WinApp
             }
 
             
+        }
+
+        private void btnInserirContatos_Click(object sender, EventArgs e)
+        {
+            CadastroContato tela = new CadastroContato();
+
+            tela.Contato = new Contato();
+
+            DialogResult resultado = tela.ShowDialog();
+
+            if (resultado == DialogResult.OK)
+            {
+                repositorioContato.Inserir(tela.Contato);
+                CarregarContatos();
+            }
+        }
+        private void CarregarContatos()
+        {
+            List<Contato> contatos = repositorioContato.SelecionarTodos();
+
+            listContatos.Items.Clear();
+
+            foreach (Contato c in contatos)
+            {
+                listTarefasConcluidas.Items.Add(c);
+            }
         }
     }
 }

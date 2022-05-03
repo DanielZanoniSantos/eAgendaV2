@@ -76,7 +76,5 @@ namespace GestaoTarefas.Dominio
 
             return Math.Round(percentualConcluido, 2);
         }
-
-
     }
 }
