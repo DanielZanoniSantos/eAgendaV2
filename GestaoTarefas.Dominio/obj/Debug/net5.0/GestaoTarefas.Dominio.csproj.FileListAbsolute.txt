@@ -1,0 +1,12 @@
+C:\Users\danie\source\repos\GestaoTarefas\GestaoTarefas.Dominio\bin\Debug\net5.0\GestaoTarefas.Dominio.deps.json
+C:\Users\danie\source\repos\GestaoTarefas\GestaoTarefas.Dominio\bin\Debug\net5.0\GestaoTarefas.Dominio.dll
+C:\Users\danie\source\repos\GestaoTarefas\GestaoTarefas.Dominio\bin\Debug\net5.0\GestaoTarefas.Dominio.pdb
+C:\Users\danie\source\repos\GestaoTarefas\GestaoTarefas.Dominio\obj\Debug\net5.0\GestaoTarefas.Dominio.csproj.AssemblyReference.cache
+C:\Users\danie\source\repos\GestaoTarefas\GestaoTarefas.Dominio\obj\Debug\net5.0\GestaoTarefas.Dominio.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\danie\source\repos\GestaoTarefas\GestaoTarefas.Dominio\obj\Debug\net5.0\GestaoTarefas.Dominio.AssemblyInfoInputs.cache
+C:\Users\danie\source\repos\GestaoTarefas\GestaoTarefas.Dominio\obj\Debug\net5.0\GestaoTarefas.Dominio.AssemblyInfo.cs
+C:\Users\danie\source\repos\GestaoTarefas\GestaoTarefas.Dominio\obj\Debug\net5.0\GestaoTarefas.Dominio.csproj.CoreCompileInputs.cache
+C:\Users\danie\source\repos\GestaoTarefas\GestaoTarefas.Dominio\obj\Debug\net5.0\GestaoTarefas.Dominio.dll
+C:\Users\danie\source\repos\GestaoTarefas\GestaoTarefas.Dominio\obj\Debug\net5.0\refint\GestaoTarefas.Dominio.dll
+C:\Users\danie\source\repos\GestaoTarefas\GestaoTarefas.Dominio\obj\Debug\net5.0\GestaoTarefas.Dominio.pdb
+C:\Users\danie\source\repos\GestaoTarefas\GestaoTarefas.Dominio\obj\Debug\net5.0\ref\GestaoTarefas.Dominio.dll

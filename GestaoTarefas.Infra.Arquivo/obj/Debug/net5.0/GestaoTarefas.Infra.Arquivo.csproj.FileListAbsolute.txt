@@ -1,0 +1,15 @@
+C:\Users\danie\source\repos\GestaoTarefas\GestaoTarefas.Infra.Arquivo\bin\Debug\net5.0\GestaoTarefas.Infra.Arquivo.deps.json
+C:\Users\danie\source\repos\GestaoTarefas\GestaoTarefas.Infra.Arquivo\bin\Debug\net5.0\GestaoTarefas.Infra.Arquivo.dll
+C:\Users\danie\source\repos\GestaoTarefas\GestaoTarefas.Infra.Arquivo\bin\Debug\net5.0\GestaoTarefas.Infra.Arquivo.pdb
+C:\Users\danie\source\repos\GestaoTarefas\GestaoTarefas.Infra.Arquivo\bin\Debug\net5.0\GestaoTarefas.Dominio.dll
+C:\Users\danie\source\repos\GestaoTarefas\GestaoTarefas.Infra.Arquivo\bin\Debug\net5.0\GestaoTarefas.Dominio.pdb
+C:\Users\danie\source\repos\GestaoTarefas\GestaoTarefas.Infra.Arquivo\obj\Debug\net5.0\GestaoTarefas.Infra.Arquivo.csproj.AssemblyReference.cache
+C:\Users\danie\source\repos\GestaoTarefas\GestaoTarefas.Infra.Arquivo\obj\Debug\net5.0\GestaoTarefas.Infra.Arquivo.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\danie\source\repos\GestaoTarefas\GestaoTarefas.Infra.Arquivo\obj\Debug\net5.0\GestaoTarefas.Infra.Arquivo.AssemblyInfoInputs.cache
+C:\Users\danie\source\repos\GestaoTarefas\GestaoTarefas.Infra.Arquivo\obj\Debug\net5.0\GestaoTarefas.Infra.Arquivo.AssemblyInfo.cs
+C:\Users\danie\source\repos\GestaoTarefas\GestaoTarefas.Infra.Arquivo\obj\Debug\net5.0\GestaoTarefas.Infra.Arquivo.csproj.CoreCompileInputs.cache
+C:\Users\danie\source\repos\GestaoTarefas\GestaoTarefas.Infra.Arquivo\obj\Debug\net5.0\GestaoTarefas.Infra.Arquivo.csproj.CopyComplete
+C:\Users\danie\source\repos\GestaoTarefas\GestaoTarefas.Infra.Arquivo\obj\Debug\net5.0\GestaoTarefas.Infra.Arquivo.dll
+C:\Users\danie\source\repos\GestaoTarefas\GestaoTarefas.Infra.Arquivo\obj\Debug\net5.0\refint\GestaoTarefas.Infra.Arquivo.dll
+C:\Users\danie\source\repos\GestaoTarefas\GestaoTarefas.Infra.Arquivo\obj\Debug\net5.0\GestaoTarefas.Infra.Arquivo.pdb
+C:\Users\danie\source\repos\GestaoTarefas\GestaoTarefas.Infra.Arquivo\obj\Debug\net5.0\ref\GestaoTarefas.Infra.Arquivo.dll

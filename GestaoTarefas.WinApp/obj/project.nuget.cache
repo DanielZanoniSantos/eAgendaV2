@@ -1,0 +1,10 @@
+{
+  "version": 2,
+  "dgSpecHash": "YI29C3iAWpOSY3K8rlzIPymIWgqmB77E0wcPGJlg0vKdG16awsSZczYZ8+nJAZOu6JTDPVGY2mqTK7tv8aIJHQ==",
+  "success": true,
+  "projectFilePath": "C:\\Users\\danie\\source\\repos\\GestaoTarefas\\GestaoTarefas.WinApp\\GestaoTarefas.WinApp.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\danie\\.nuget\\packages\\newtonsoft.json\\13.0.1\\newtonsoft.json.13.0.1.nupkg.sha512"
+  ],
+  "logs": []
+}

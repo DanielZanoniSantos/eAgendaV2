@@ -1,0 +1,16 @@
+C:\Users\danie\source\repos\GestaoTarefas\GestaoTarefas.ConsoleApp\bin\Debug\net5.0\GestaoTarefas.ConsoleApp.exe
+C:\Users\danie\source\repos\GestaoTarefas\GestaoTarefas.ConsoleApp\bin\Debug\net5.0\GestaoTarefas.ConsoleApp.deps.json
+C:\Users\danie\source\repos\GestaoTarefas\GestaoTarefas.ConsoleApp\bin\Debug\net5.0\GestaoTarefas.ConsoleApp.runtimeconfig.json
+C:\Users\danie\source\repos\GestaoTarefas\GestaoTarefas.ConsoleApp\bin\Debug\net5.0\GestaoTarefas.ConsoleApp.runtimeconfig.dev.json
+C:\Users\danie\source\repos\GestaoTarefas\GestaoTarefas.ConsoleApp\bin\Debug\net5.0\GestaoTarefas.ConsoleApp.dll
+C:\Users\danie\source\repos\GestaoTarefas\GestaoTarefas.ConsoleApp\bin\Debug\net5.0\GestaoTarefas.ConsoleApp.pdb
+C:\Users\danie\source\repos\GestaoTarefas\GestaoTarefas.ConsoleApp\obj\Debug\net5.0\GestaoTarefas.ConsoleApp.csproj.AssemblyReference.cache
+C:\Users\danie\source\repos\GestaoTarefas\GestaoTarefas.ConsoleApp\obj\Debug\net5.0\GestaoTarefas.ConsoleApp.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\danie\source\repos\GestaoTarefas\GestaoTarefas.ConsoleApp\obj\Debug\net5.0\GestaoTarefas.ConsoleApp.AssemblyInfoInputs.cache
+C:\Users\danie\source\repos\GestaoTarefas\GestaoTarefas.ConsoleApp\obj\Debug\net5.0\GestaoTarefas.ConsoleApp.AssemblyInfo.cs
+C:\Users\danie\source\repos\GestaoTarefas\GestaoTarefas.ConsoleApp\obj\Debug\net5.0\GestaoTarefas.ConsoleApp.csproj.CoreCompileInputs.cache
+C:\Users\danie\source\repos\GestaoTarefas\GestaoTarefas.ConsoleApp\obj\Debug\net5.0\GestaoTarefas.ConsoleApp.dll
+C:\Users\danie\source\repos\GestaoTarefas\GestaoTarefas.ConsoleApp\obj\Debug\net5.0\refint\GestaoTarefas.ConsoleApp.dll
+C:\Users\danie\source\repos\GestaoTarefas\GestaoTarefas.ConsoleApp\obj\Debug\net5.0\GestaoTarefas.ConsoleApp.pdb
+C:\Users\danie\source\repos\GestaoTarefas\GestaoTarefas.ConsoleApp\obj\Debug\net5.0\GestaoTarefas.ConsoleApp.genruntimeconfig.cache
+C:\Users\danie\source\repos\GestaoTarefas\GestaoTarefas.ConsoleApp\obj\Debug\net5.0\ref\GestaoTarefas.ConsoleApp.dll

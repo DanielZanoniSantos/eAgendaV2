@@ -1,0 +1,10 @@
+{
+  "version": 2,
+  "dgSpecHash": "5ZAjXar4RBZxZc/61FdOObOCIp9zuC4eIk+PmBlJ8Klfv1BBdDiIdyxPo/nPkD5Sqa1mod+K9pUvhjEhct/jBA==",
+  "success": true,
+  "projectFilePath": "C:\\Users\\danie\\source\\repos\\GestaoTarefas\\GestaoTarefas.Infra.Arquivo\\GestaoTarefas.Infra.Arquivo.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\danie\\.nuget\\packages\\newtonsoft.json\\13.0.1\\newtonsoft.json.13.0.1.nupkg.sha512"
+  ],
+  "logs": []
+}
