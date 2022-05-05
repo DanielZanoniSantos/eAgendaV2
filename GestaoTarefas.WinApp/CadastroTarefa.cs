@@ -29,6 +29,7 @@ namespace GestaoTarefas.WinApp
             set
             {
                 tarefa = value;
+                txtIdTarefa.Text = tarefa.Id.ToString();
                 listPrioridade.Text = tarefa.Prioridade;
                 txtTitulo.Text = tarefa.Titulo;
             }

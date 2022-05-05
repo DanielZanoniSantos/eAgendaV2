@@ -26,3 +26,4 @@ C:\Users\danie\source\repos\GestaoTarefas\GestaoTarefas.WinApp\bin\Debug\net5.0-
 C:\Users\danie\source\repos\GestaoTarefas\GestaoTarefas.WinApp\bin\Debug\net5.0-windows\GestaoTarefas.Infra.Arquivo.dll
 C:\Users\danie\source\repos\GestaoTarefas\GestaoTarefas.WinApp\bin\Debug\net5.0-windows\GestaoTarefas.Infra.Arquivo.pdb
 C:\Users\danie\source\repos\GestaoTarefas\GestaoTarefas.WinApp\obj\Debug\net5.0-windows\GestaoTarefas.WinApp.CadastroContato.resources
+C:\Users\danie\source\repos\GestaoTarefas\GestaoTarefas.WinApp\obj\Debug\net5.0-windows\GestaoTarefas.WinApp.Properties.Resources.resources

@@ -19,7 +19,8 @@ namespace GestaoTarefas.Infra.Arquivos
 
             tarefas = serializador.CarregarTarefasDoArquivo();
 
-            this.serializador = serializador;
+            if (tarefas.Count > 0)
+                contador = tarefas.Max(x => x.Id);
         }
 
 
@@ -32,7 +33,7 @@ namespace GestaoTarefas.Infra.Arquivos
 
         public void Inserir(Tarefa novaTarefa)
         {
-            
+            novaTarefa.Id = ++contador;
             tarefas.Add(novaTarefa);
 
             serializador.GravarTarefasEmArquivo(tarefas);

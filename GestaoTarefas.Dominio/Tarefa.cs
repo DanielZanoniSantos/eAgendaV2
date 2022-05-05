@@ -14,13 +14,14 @@ namespace GestaoTarefas.Dominio
             DataCriacao = DateTime.Now;
         }
 
-        public Tarefa(string p, string t) : this()
+        public Tarefa(int i, string p, string t) : this()
         {
+            Id = i;
             Prioridade = p;
             Titulo = t;
             DataConclusao = null;
         }
-
+        public int Id { get; set; }
         public string Prioridade { get; set; }
         public string Titulo { get; set; }
         public DateTime DataCriacao { get; set; }
@@ -33,11 +34,11 @@ namespace GestaoTarefas.Dominio
 
             if (DataConclusao.HasValue)
             {
-                return $"Título: {Titulo}, Prioridade: {Prioridade}, Percentual: {percentual}%, " +
+                return $"ID: {Id}, Título: {Titulo}, Prioridade: {Prioridade}, Percentual: {percentual}%, " +
                     $"Concluída: {DataConclusao.Value.ToShortDateString()}";
             }
 
-            return $"Título: {Titulo}, Prioridade: {Prioridade}, Percentual: {percentual}%";
+            return $"ID: {Id}, Título: {Titulo}, Prioridade: {Prioridade}, Percentual: {percentual}%";
         }
 
         public void AdicionarItem(ItemTarefa item)

@@ -34,12 +34,12 @@
             this.label4 = new System.Windows.Forms.Label();
             this.label5 = new System.Windows.Forms.Label();
             this.txtNome = new System.Windows.Forms.TextBox();
-            this.txtEmail = new System.Windows.Forms.TextBox();
-            this.txtTelefone = new System.Windows.Forms.TextBox();
             this.txtEmpresa = new System.Windows.Forms.TextBox();
             this.txtCargo = new System.Windows.Forms.TextBox();
             this.btnGravarContato = new System.Windows.Forms.Button();
             this.button2 = new System.Windows.Forms.Button();
+            this.maskedTxtTelefone = new System.Windows.Forms.MaskedTextBox();
+            this.txtEmail = new System.Windows.Forms.TextBox();
             this.SuspendLayout();
             // 
             // label1
@@ -94,20 +94,6 @@
             this.txtNome.Size = new System.Drawing.Size(224, 23);
             this.txtNome.TabIndex = 5;
             // 
-            // txtEmail
-            // 
-            this.txtEmail.Location = new System.Drawing.Point(89, 67);
-            this.txtEmail.Name = "txtEmail";
-            this.txtEmail.Size = new System.Drawing.Size(224, 23);
-            this.txtEmail.TabIndex = 6;
-            // 
-            // txtTelefone
-            // 
-            this.txtTelefone.Location = new System.Drawing.Point(89, 111);
-            this.txtTelefone.Name = "txtTelefone";
-            this.txtTelefone.Size = new System.Drawing.Size(224, 23);
-            this.txtTelefone.TabIndex = 7;
-            // 
             // txtEmpresa
             // 
             this.txtEmpresa.Location = new System.Drawing.Point(89, 156);
@@ -143,17 +129,32 @@
             this.button2.Text = "Cancelar";
             this.button2.UseVisualStyleBackColor = true;
             // 
+            // maskedTxtTelefone
+            // 
+            this.maskedTxtTelefone.Location = new System.Drawing.Point(89, 112);
+            this.maskedTxtTelefone.Mask = "(00) 0 0000-0000";
+            this.maskedTxtTelefone.Name = "maskedTxtTelefone";
+            this.maskedTxtTelefone.Size = new System.Drawing.Size(224, 23);
+            this.maskedTxtTelefone.TabIndex = 13;
+            // 
+            // txtEmail
+            // 
+            this.txtEmail.Location = new System.Drawing.Point(89, 67);
+            this.txtEmail.Name = "txtEmail";
+            this.txtEmail.Size = new System.Drawing.Size(224, 23);
+            this.txtEmail.TabIndex = 14;
+            // 
             // CadastroContato
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(7F, 15F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(332, 286);
+            this.Controls.Add(this.txtEmail);
+            this.Controls.Add(this.maskedTxtTelefone);
             this.Controls.Add(this.button2);
             this.Controls.Add(this.btnGravarContato);
             this.Controls.Add(this.txtCargo);
             this.Controls.Add(this.txtEmpresa);
-            this.Controls.Add(this.txtTelefone);
-            this.Controls.Add(this.txtEmail);
             this.Controls.Add(this.txtNome);
             this.Controls.Add(this.label5);
             this.Controls.Add(this.label4);
@@ -178,11 +179,11 @@
         private System.Windows.Forms.Label label4;
         private System.Windows.Forms.Label label5;
         private System.Windows.Forms.TextBox txtNome;
-        private System.Windows.Forms.TextBox txtEmail;
-        private System.Windows.Forms.TextBox txtTelefone;
         private System.Windows.Forms.TextBox txtEmpresa;
         private System.Windows.Forms.TextBox txtCargo;
         private System.Windows.Forms.Button btnGravarContato;
         private System.Windows.Forms.Button button2;
+        private System.Windows.Forms.MaskedTextBox maskedTxtTelefone;
+        private System.Windows.Forms.TextBox txtEmail;
     }
 }

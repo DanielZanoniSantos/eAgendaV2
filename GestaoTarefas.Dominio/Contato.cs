@@ -6,13 +6,16 @@ using System.Threading.Tasks;
 
 namespace GestaoTarefas.Dominio
 {
+    [Serializable]
     public class Contato
     {
+        
         public Contato()
         {
+
         }
 
-        public Contato(string n, string email, string telefone, string cargo)
+        public Contato(string n, string email, string telefone, string cargo) : this()
         {
             Nome = n;
             Email = email;
@@ -28,7 +31,7 @@ namespace GestaoTarefas.Dominio
 
         public override string ToString()
         {
-            if (Empresa == null && Cargo == null)
+            if (Empresa == null || Cargo == null)
             {
                 return $"Nome: {Nome}, E-mail: {Email}, Telefone: {Telefone}";
             }

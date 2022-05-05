@@ -10,6 +10,7 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 using System.Windows.Forms;
+using GestaoTarefas.Infra.Arquivo;
 
 namespace GestaoTarefas.WinApp
 {
@@ -28,13 +29,16 @@ namespace GestaoTarefas.WinApp
 
             //SerializadorTarefasEmJson serializador = new SerializadorTarefasEmJson();
 
-            SerializadorTarefasJsonEmDotNet serializador = new SerializadorTarefasJsonEmDotNet();
 
-            InitializeComponent();
+            SerializadorTarefasJsonEmDotNet serializador = new SerializadorTarefasJsonEmDotNet();
             repositorioTarefa = new RepositorioTarefaEmArquivo(serializador);
 
-            //repositoriocontato = new repositoriotarefaemarquivo(serializador);
+            SerializadorContatosJsonEmDotNet serializadorContato = new SerializadorContatosJsonEmDotNet();
+            repositorioContato = new RepositorioContatoEmArquivo(serializadorContato);
+
+            InitializeComponent();
             CarregarTarefas();
+            CarregarContatos();
         }
 
         private void CarregarTarefas()
@@ -51,7 +55,7 @@ namespace GestaoTarefas.WinApp
 
             List<Tarefa> tarefasPendentes = repositorioTarefa.SelecionarTarefasPendentes();
 
-            listTarefasConcluidas.Items.Clear();
+            listTarefasPendentes.Items.Clear();
 
             foreach (Tarefa t in tarefasPendentes)
             {
@@ -166,23 +170,6 @@ namespace GestaoTarefas.WinApp
                 repositorioTarefa.AtualizarItens(tarefaSelecionada, itensConcluidos, itensPendentes);
                 CarregarTarefas();
             }
-
-            
-        }
-
-        private void btnInserirContatos_Click(object sender, EventArgs e)
-        {
-            CadastroContato tela = new CadastroContato();
-
-            tela.Contato = new Contato();
-
-            DialogResult resultado = tela.ShowDialog();
-
-            if (resultado == DialogResult.OK)
-            {
-                repositorioContato.Inserir(tela.Contato);
-                CarregarContatos();
-            }
         }
         private void CarregarContatos()
         {
@@ -192,7 +179,67 @@ namespace GestaoTarefas.WinApp
 
             foreach (Contato c in contatos)
             {
-                listTarefasConcluidas.Items.Add(c);
+                listContatos.Items.Add(c);
+            }
+        }
+
+        private void btnInserirContatos_Click_1(object sender, EventArgs e)
+        {
+            CadastroContato tela = new CadastroContato();
+
+            tela.Contato = new Contato();
+
+            DialogResult resultado = tela.ShowDialog();
+
+            //-
+            if (resultado == DialogResult.OK)
+            {
+                repositorioContato.Inserir(tela.Contato);
+                CarregarContatos();
+            }
+        }
+        private void btnEditarContatos_Click(object sender, EventArgs e)
+        {
+            Contato contatoSelecionado = (Contato)listContatos.SelectedItem;
+
+            if (contatoSelecionado == null)
+            {
+                MessageBox.Show("Seleciona uma tarefa primeiro", "Edição de tarefas", MessageBoxButtons.OK,
+                    MessageBoxIcon.Exclamation);
+                return;
+            }
+
+            CadastroContato tela = new CadastroContato();
+
+            tela.Contato = contatoSelecionado;
+
+            DialogResult resultado = tela.ShowDialog();
+
+            if (resultado == DialogResult.OK)
+            {
+                repositorioContato.Editar(tela.Contato);
+                CarregarContatos();
+            }
+        }
+        private void btnExcluirContatos_Click(object sender, EventArgs e)
+        {
+            Contato contatoSelecionado = (Contato)listContatos.SelectedItem;
+
+            if (contatoSelecionado == null)
+            {
+                MessageBox.Show("Seleciona um contato primeiro", "Exclusão de Contatos", MessageBoxButtons.OK,
+                    MessageBoxIcon.Exclamation);
+                return;
+            }
+
+
+            DialogResult resultado = MessageBox.Show("Deseja realmente excluir este contato?",
+                "Exclusão de Contatos", MessageBoxButtons.OKCancel, MessageBoxIcon.Question);
+
+            if (resultado == DialogResult.OK)
+            {
+                repositorioContato.Excluir(contatoSelecionado);
+                CarregarContatos();
             }
         }
     }

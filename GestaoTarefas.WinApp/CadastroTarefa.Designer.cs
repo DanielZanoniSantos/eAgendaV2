@@ -34,12 +34,14 @@
             this.btnCancelar = new System.Windows.Forms.Button();
             this.label3 = new System.Windows.Forms.Label();
             this.listPrioridade = new System.Windows.Forms.ListBox();
+            this.txtId = new System.Windows.Forms.Label();
+            this.txtIdTarefa = new System.Windows.Forms.TextBox();
             this.SuspendLayout();
             // 
             // label2
             // 
             this.label2.AutoSize = true;
-            this.label2.Location = new System.Drawing.Point(19, 27);
+            this.label2.Location = new System.Drawing.Point(21, 72);
             this.label2.Name = "label2";
             this.label2.Size = new System.Drawing.Size(40, 15);
             this.label2.TabIndex = 1;
@@ -47,7 +49,7 @@
             // 
             // txtTitulo
             // 
-            this.txtTitulo.Location = new System.Drawing.Point(89, 24);
+            this.txtTitulo.Location = new System.Drawing.Point(91, 69);
             this.txtTitulo.Name = "txtTitulo";
             this.txtTitulo.Size = new System.Drawing.Size(232, 23);
             this.txtTitulo.TabIndex = 3;
@@ -55,7 +57,7 @@
             // btnGravar
             // 
             this.btnGravar.DialogResult = System.Windows.Forms.DialogResult.OK;
-            this.btnGravar.Location = new System.Drawing.Point(155, 124);
+            this.btnGravar.Location = new System.Drawing.Point(157, 169);
             this.btnGravar.Name = "btnGravar";
             this.btnGravar.Size = new System.Drawing.Size(80, 32);
             this.btnGravar.TabIndex = 4;
@@ -66,7 +68,7 @@
             // btnCancelar
             // 
             this.btnCancelar.DialogResult = System.Windows.Forms.DialogResult.Cancel;
-            this.btnCancelar.Location = new System.Drawing.Point(241, 124);
+            this.btnCancelar.Location = new System.Drawing.Point(243, 169);
             this.btnCancelar.Name = "btnCancelar";
             this.btnCancelar.Size = new System.Drawing.Size(80, 32);
             this.btnCancelar.TabIndex = 5;
@@ -76,7 +78,7 @@
             // label3
             // 
             this.label3.AutoSize = true;
-            this.label3.Location = new System.Drawing.Point(19, 63);
+            this.label3.Location = new System.Drawing.Point(21, 108);
             this.label3.Name = "label3";
             this.label3.Size = new System.Drawing.Size(64, 15);
             this.label3.TabIndex = 6;
@@ -90,16 +92,35 @@
             "Alta",
             "Normal",
             "Baixa"});
-            this.listPrioridade.Location = new System.Drawing.Point(89, 63);
+            this.listPrioridade.Location = new System.Drawing.Point(91, 108);
             this.listPrioridade.Name = "listPrioridade";
             this.listPrioridade.Size = new System.Drawing.Size(232, 49);
             this.listPrioridade.TabIndex = 7;
+            // 
+            // txtId
+            // 
+            this.txtId.AutoSize = true;
+            this.txtId.Location = new System.Drawing.Point(21, 29);
+            this.txtId.Name = "txtId";
+            this.txtId.Size = new System.Drawing.Size(21, 15);
+            this.txtId.TabIndex = 8;
+            this.txtId.Text = "ID:";
+            // 
+            // txtIdTarefa
+            // 
+            this.txtIdTarefa.Enabled = false;
+            this.txtIdTarefa.Location = new System.Drawing.Point(91, 21);
+            this.txtIdTarefa.Name = "txtIdTarefa";
+            this.txtIdTarefa.Size = new System.Drawing.Size(43, 23);
+            this.txtIdTarefa.TabIndex = 9;
             // 
             // CadastroTarefa
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(7F, 15F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(340, 168);
+            this.ClientSize = new System.Drawing.Size(340, 224);
+            this.Controls.Add(this.txtIdTarefa);
+            this.Controls.Add(this.txtId);
             this.Controls.Add(this.listPrioridade);
             this.Controls.Add(this.label3);
             this.Controls.Add(this.btnCancelar);
@@ -125,5 +146,7 @@
         private System.Windows.Forms.Button btnCancelar;
         private System.Windows.Forms.Label label3;
         private System.Windows.Forms.ListBox listPrioridade;
+        private System.Windows.Forms.Label txtId;
+        private System.Windows.Forms.TextBox txtIdTarefa;
     }
 }
